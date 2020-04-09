@@ -10,7 +10,6 @@ fi
 
 module load blast
 
-##BLASTBINS=/srv/gsfs0/projects/curtis/jding2/pipeline/scripts/BLAST/bin
 OPTIONS="-perc_identity 94.5 -max_target_seqs 100 -outfmt 6 -strand plus -num_threads 1"
 WSIZEMID=7
 WSIZELOC=6
